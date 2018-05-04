@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6ea2281-301c-45a3-a15a-007a261784db" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/AutoForm.vue" afterPath="$PROJECT_DIR$/src/AutoForm.vue" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" afterPath="$PROJECT_DIR$/yarn.lock" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,8 +22,8 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+            <state relative-caret-position="184">
+              <caret line="8" column="48" lean-forward="true" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -46,6 +49,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/AutoForm.vue" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -135,11 +140,6 @@
               <item name="vue-auto-form" type="b2602c69:ProjectViewProjectNode" />
               <item name="vue-auto-form" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="vue-auto-form" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vue-auto-form" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -192,12 +192,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1525427734606</updated>
-      <workItem from="1525427736070" duration="206000" />
+      <workItem from="1525427736070" duration="834000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="206000" />
+    <option name="totallyTimeSpent" value="834000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="92" y="22" width="1089" height="876" extended-state="0" />
@@ -245,10 +245,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="92">
+            <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <folding>
+              <marker date="1525428486000" expanded="true" signature="597:1584" ph="..." />
+              <marker date="1525428486000" expanded="true" signature="694:1584" ph="..." />
+              <marker date="1525428486000" expanded="true" signature="734:799" ph="//..." />
+              <marker date="1525428486000" expanded="true" signature="816:1575" ph="{...}" />
+              <marker date="1525428486000" expanded="true" signature="832:850" ph="{&quot;AutoForm&quot;: AutoForm...}" />
+              <marker date="1525428486000" expanded="true" signature="862:1501" ph="{...}" />
+              <marker date="1525428486000" expanded="true" signature="875:1497" ph="{...}" />
+              <marker date="1525428486000" expanded="true" signature="891:1474" ph="{...}" />
+              <marker date="1525428486000" expanded="true" signature="908:987" ph="{&quot;type&quot;: String...}" />
+              <marker date="1525428486000" expanded="true" signature="1005:1066" ph="{&quot;type&quot;: String...}" />
+              <marker date="1525428486000" expanded="true" signature="1084:1173" ph="{&quot;type&quot;: Number...}" />
+              <marker date="1525428486000" expanded="true" signature="1199:1313" ph="{&quot;type&quot;: Date...}" />
+              <marker date="1525428486000" expanded="true" signature="1332:1466" ph="{&quot;type&quot;: String...}" />
+              <marker date="1525428486000" expanded="true" signature="1514:1573" ph="{...}" />
+              <marker date="1525428486000" expanded="true" signature="1532:1569" ph="{...}" />
+              <marker date="1525428486000" expanded="true" signature="4798:4830" ph="{&quot;label&quot;: 'One'...}" />
+              <marker date="1525428486000" expanded="true" signature="4834:4866" ph="{&quot;label&quot;: 'Two'...}" />
+              <marker date="1525428486000" expanded="true" signature="6497:6565" ph="{...}" />
+              <marker date="1525428486000" expanded="true" signature="6507:6563" ph="{...}" />
+              <marker date="1525428486000" expanded="true" signature="6533:6559" ph="{...}" />
+              <marker date="1525428486000" expanded="true" signature="6567:6708" ph="{...}" />
+              <marker date="1525428486000" expanded="true" signature="6577:6706" ph="{...}" />
+              <marker date="1525428486000" expanded="true" signature="6604:6702" ph="{...}" />
+              <marker date="1525428486000" expanded="true" signature="6618:6648" ph="{...}" />
+              <marker date="1525428486000" expanded="true" signature="6666:6696" ph="{...}" />
+              <marker date="1525428486000" expanded="true" signature="6710:6822" ph="{...}" />
+              <marker date="1525428486000" expanded="true" signature="6723:6820" ph="{...}" />
+              <marker date="1525428486000" expanded="true" signature="6749:6816" ph="{...}" />
+              <marker date="1525428486000" expanded="true" signature="6780:6810" ph="{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        <state relative-caret-position="184">
+          <caret line="8" column="48" lean-forward="true" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
           <folding />
         </state>
       </provider>

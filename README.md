@@ -1,11 +1,12 @@
 # vue-auto-form
 
 vue-auto-form is a [`vue2`](https://github.com/vuejs/vue) component that helpers to easily create basic forms with automatic insert and update events, and automatic reactive validation.
+support the vue latest version 2.5+
 
 ## Installation
 
 ```
-npm install vue-auto-form --save
+npm install vue-auto-form-o --save
 ```
 
 And then:
