@@ -1,7 +1,7 @@
 {
   "name": "vue-auto-form-o",
   "description": "A vue2 component that helpers to easily create basic forms with automatic insert and update events, and automatic reactive validation.",
-  "version": "1.0.6",
+  "version": "1.0.9",
   "author": "wenzhixin2010@gmial.com",
   "main": "./src/index.js",
   "scripts": {
@@ -13,8 +13,7 @@
     "flat": "^2.0.1",
     "lodash": "^4.17.4",
     "moment": "^2.17.1",
-    "sprintf": "^0.1.5",
-    "vue": "^2.2.1"
+    "sprintf": "^0.1.5"
   },
   "devDependencies": {
     "babel-core": "^6.0.0",
@@ -34,6 +33,7 @@
     "eslint-plugin-vue": "^2.0.1",
     "file-loader": "^0.8.5",
     "style-loader": "^0.13.1",
+    "vue": "^2.2.1",
     "vue-loader": "^9.8.0",
     "webpack": "beta",
     "webpack-dev-server": "beta"
