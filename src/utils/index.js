@@ -44,7 +44,7 @@ export function getInput (input, name) {
     if (/\d+/.test(name)) {
       input = input.$
     } else {
-      input = input[name]
+      input = input[ name ]
     }
     if (!input.component && input.type === Object) {
       input = input.$
@@ -55,31 +55,31 @@ export function getInput (input, name) {
 
 export function unflattenModel (model, res = {}) {
   for (const name in res) {
-    delete res[name]
+    delete res[ name ]
   }
-  // remove array null
+    // remove array null
   const removeNulls = obj => {
     if (_.isArray(obj)) {
       for (let i = obj.length - 1; i >= 0; i--) {
-        if (obj[i] === undefined || obj[i] === null) {
+        if (obj[ i ] === undefined || obj[ i ] === null) {
           obj.splice(i, 1)
-        } else if (_.isArray(obj[i]) || _.isObject(obj[i])) {
-          removeNulls(obj[i])
+        } else if (_.isArray(obj[ i ]) || _.isObject(obj[ i ])) {
+          removeNulls(obj[ i ])
         }
       }
     } else {
       for (const k in obj) {
-        if (_.isArray(obj[k]) || _.isObject(obj[k])) {
-          removeNulls(obj[k])
+        if (_.isArray(obj[ k ]) || _.isObject(obj[ k ])) {
+          removeNulls(obj[ k ])
         }
       }
     }
   }
   model = unflatten(model)
   removeNulls(model)
-  // update
+    // update
   for (const name in model) {
-    res[name] = model[name]
+    res[ name ] = model[ name ]
   }
   return res
 }
