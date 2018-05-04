@@ -24,7 +24,7 @@
       v-if="isShow(input) && getGroup(input) === 'object'"
       :input="input"
       :name="name">
-      <template scope="props">
+      <template slot-scope="props">
         <div :is="getComponent('FormGroup')"
           v-if="isShow(props.input)"
           :input="props.input"
@@ -42,12 +42,11 @@
         </div>
       </template>
     </div>
-
     <div :is="getComponent('ArrayGroup')"
       v-if="isShow(input) && getGroup(input) === 'array'"
       :input="input"
       :name="name">
-      <template scope="props">
+      <template slot-scope="props">
         <div :is="getComponent('FormGroup')"
           v-if="isShow(props.input)"
           :input="props.input"
@@ -66,13 +65,13 @@
       v-if="isShow(input) && getGroup(input) === 'array_object'"
       :input="input"
       :name="name">
-      <template scope="props1">
+      <template slot-scope="props1">
         <div :is="getComponent('ObjectGroup')"
           v-if="isShow(props1.input)"
           :input="props1.input"
           :name="props1.name_"
           :showLable="false">
-          <template scope="props2">
+          <template slot-scope="props2">
             <div :is="getComponent('FormGroup')"
               :input="props2.input"
               :error="errors[props2.name_]">
@@ -121,7 +120,7 @@ const Components = {
   bootstrap3_horizontal,
   element,
   element_horizontal
-}
+};
 let template = 'bootstrap3'
 let locale = 'en_us'
 
